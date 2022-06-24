@@ -114,7 +114,7 @@ export default {
       }
     },
     ensSubdomainKey: 'mainnet-tornado',
-    pollInterval: 30,
+    pollInterval: 15,
     constants: {
       NOTE_ACCOUNT_BLOCK: 11842486,
       ENCRYPTED_NOTES_BLOCK: 14248730,
@@ -276,7 +276,7 @@ export default {
       }
     },
     ensSubdomainKey: 'optimism-tornado',
-    pollInterval: 20,
+    pollInterval: 15,
     constants: {
       NOTE_ACCOUNT_BLOCK: 2243694,
       ENCRYPTED_NOTES_BLOCK: 2243694
@@ -331,7 +331,7 @@ export default {
       }
     },
     ensSubdomainKey: 'arbitrum-tornado',
-    pollInterval: 20,
+    pollInterval: 15,
     constants: {
       NOTE_ACCOUNT_BLOCK: 3430605,
       ENCRYPTED_NOTES_BLOCK: 3430605
@@ -378,7 +378,7 @@ export default {
       }
     },
     ensSubdomainKey: 'gnosis-tornado',
-    pollInterval: 20,
+    pollInterval: 15,
     constants: {
       NOTE_ACCOUNT_BLOCK: 17754564,
       ENCRYPTED_NOTES_BLOCK: 17754564
@@ -446,7 +446,7 @@ export default {
       address: 'https://goerli.etherscan.io/address/',
       block: 'https://goerli.etherscan.io/block/'
     },
-    merkleTreeHeight: 20,
+    merkleTreeHeight: 15,
     emptyElement: '21663839004416932945382355908790599225266501822907911457504978515578255421292',
     networkName: 'Ethereum Goerli',
     deployedBlock: 3781595,
@@ -532,7 +532,7 @@ export default {
       }
     },
     ensSubdomainKey: 'goerli-tornado',
-    pollInterval: 30,
+    pollInterval: 15,
     constants: {
       NOTE_ACCOUNT_BLOCK: 4131375,
       ENCRYPTED_NOTES_BLOCK: 4131375,
