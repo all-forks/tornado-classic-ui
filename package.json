@@ -38,7 +38,7 @@
     "file-saver": "^2.0.5",
     "fixed-merkle-tree": "^0.7.3",
     "form-data": "^3.0.0",
-    "gas-price-oracle": "git+https://github.com/peppersec/gas-price-oracle.git#c67323be79501ceef28b1d7d209049c52e00d5b7",
+    "gas-price-oracle": "git+https://github.com/peppersec/gas-price-oracle.git#da3de92dea7c75afc2c8ba141f23c4eea597a614",
     "graphql": "^15.5.1",
     "idb": "^6.0.0",
     "jspdf": "^1.5.3",

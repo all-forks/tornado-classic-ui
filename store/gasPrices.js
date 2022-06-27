@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import Web3 from 'web3'
-import { toHex } from 'web3-utils'
+import { toHex, fromWei } from 'web3-utils'
 import { GasPriceOracle } from 'gas-price-oracle'
 import { serialize } from '@ethersproject/transactions'
 
@@ -46,6 +46,9 @@ export const getters = {
   gasPrice: (state, getters) => {
     const { gasPrice, maxFeePerGas } = getters.getGasParams
     return toHex(maxFeePerGas || gasPrice)
+  },
+  gasPriceInGwei: (state, getters) => {
+    return fromWei(getters.gasPrice, 'gwei')
   }
 }
 
