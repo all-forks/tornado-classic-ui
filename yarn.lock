@@ -7893,9 +7893,9 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-"gas-price-oracle@git+https://github.com/peppersec/gas-price-oracle.git#da3de92dea7c75afc2c8ba141f23c4eea597a614":
+"gas-price-oracle@git+https://github.com/peppersec/gas-price-oracle.git#ead2fc80aae67caf20ce6d867018853e601a406d":
   version "0.5.0"
-  resolved "git+https://github.com/peppersec/gas-price-oracle.git#da3de92dea7c75afc2c8ba141f23c4eea597a614"
+  resolved "git+https://github.com/peppersec/gas-price-oracle.git#ead2fc80aae67caf20ce6d867018853e601a406d"
   dependencies:
     axios "^0.21.2"
     bignumber.js "^9.0.0"

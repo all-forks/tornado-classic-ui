@@ -62,11 +62,11 @@ export const mutations = {
 }
 
 export const actions = {
-  async fetchGasPrice({ getters, dispatch, commit, rootGetters }, isLegacy) {
+  async fetchGasPrice({ getters, dispatch, commit, rootGetters }) {
     const { pollInterval } = rootGetters['metamask/networkConfig']
 
     try {
-      const txGasParams = await getters.oracle.getTxGasParams({ isLegacy })
+      const txGasParams = await getters.oracle.getTxGasParams()
       commit('SAVE_GAS_PARAMS', txGasParams)
       await dispatch('fetchL1Fee')
     } catch (e) {
