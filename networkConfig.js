@@ -446,7 +446,7 @@ export default {
       address: 'https://goerli.etherscan.io/address/',
       block: 'https://goerli.etherscan.io/block/'
     },
-    merkleTreeHeight: 15,
+    merkleTreeHeight: 20,
     emptyElement: '21663839004416932945382355908790599225266501822907911457504978515578255421292',
     networkName: 'Ethereum Goerli',
     deployedBlock: 3781595,
